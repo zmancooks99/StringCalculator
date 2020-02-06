@@ -1,0 +1,2 @@
+# StringCalculator
+For CS372
