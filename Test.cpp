@@ -6,4 +6,11 @@
 //  Copyright © 2020 Zachary Mason. All rights reserved.
 //
 
-#include "Test.hpp"
+#include "catch.hpp"
+
+#define CATCH_CONFIG_FAST_COMPILE
+
+#include "Calculate.hpp"
+#include "Calculate.hpp"    //Double inclusion test
+
+TEST_CASE("");
